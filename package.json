@@ -1,0 +1,28 @@
+{
+  "name": "video-generator-agent",
+  "version": "0.1.0",
+  "description": "Standalone agent that turns a brief (plus optional UI screens or a URL) into a narrated, captioned social video. Voice by ElevenLabs.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "vidgen": "bin/vidgen.js"
+  },
+  "scripts": {
+    "vidgen": "node bin/vidgen.js",
+    "make": "node bin/vidgen.js make",
+    "plan": "node bin/vidgen.js plan",
+    "voices": "node bin/vidgen.js voices",
+    "demo": "node bin/vidgen.js make --storyboard examples/demo/storyboard.json --brand examples/demo/brand.json --out out/demo --draft",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "playwright": "^1.63.0",
+    "zod": "^4.6.7"
+  }
+}

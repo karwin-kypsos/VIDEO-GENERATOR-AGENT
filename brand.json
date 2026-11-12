@@ -1,0 +1,30 @@
+{
+  "name": "Your Brand",
+  "url": "yourbrand.com",
+  "handle": "@yourbrand",
+  "logo": "",
+  "tone": "confident, clear and friendly",
+  "colors": {
+    "bg": "#0B1020",
+    "bg2": "#1A1F4B",
+    "text": "#FFFFFF",
+    "muted": "#AEB8D6",
+    "accent": "#7C5CFF",
+    "accent2": "#22D3EE"
+  },
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  },
+  "voice": {
+    "id": "",
+    "model": "",
+    "stability": 0.5,
+    "similarity": 0.75,
+    "style": 0,
+    "speed": 1
+  },
+  "captions": true,
+  "progressBar": true,
+  "ambientMotion": true
+}

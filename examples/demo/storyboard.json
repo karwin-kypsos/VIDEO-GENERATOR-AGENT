@@ -1,0 +1,57 @@
+{
+  "title": "Pulse launch",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "title",
+      "narration": "Your store makes money while you sleep. Do you know how much?",
+      "kicker": "Meet Pulse",
+      "headline": "Know your numbers *before* coffee",
+      "subhead": "One screen. Every sale."
+    },
+    {
+      "type": "screen",
+      "narration": "Pulse puts this week's revenue right at the top, the moment you open the app.",
+      "image": "screens/app-home.png",
+      "headline": "Revenue at a *glance*",
+      "focusX": 50,
+      "focusY": 27,
+      "highlight": true
+    },
+    {
+      "type": "screen",
+      "narration": "Scroll down, and your best sellers are ranked for you, with stock levels built in.",
+      "image": "screens/app-home.png",
+      "headline": "Best sellers, *ranked*",
+      "focusX": 50,
+      "focusY": 74
+    },
+    {
+      "type": "screen",
+      "narration": "On desktop, the overview shows where every sale came from, so you know which channel to double down on.",
+      "image": "screens/dashboard.png",
+      "headline": "See what's *working*",
+      "focusX": 80,
+      "focusY": 55
+    },
+    {
+      "type": "bullets",
+      "narration": "Revenue, orders and customers. All live, all in one place, with no spreadsheets.",
+      "headline": "Everything in *one* place",
+      "items": ["Live revenue and orders", "New customers by channel", "No spreadsheets, ever"]
+    },
+    {
+      "type": "stat",
+      "narration": "Stores using Pulse spot their best channel three times faster.",
+      "kicker": "The payoff",
+      "value": "3x",
+      "label": "faster to find your best channel"
+    },
+    {
+      "type": "cta",
+      "narration": "Try Pulse free today. The link is in our bio.",
+      "headline": "Start *free* today",
+      "button": "Get Pulse"
+    }
+  ]
+}

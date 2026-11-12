@@ -1,0 +1,14 @@
+{
+  "name": "Pulse",
+  "url": "pulse.example",
+  "handle": "@pulseapp",
+  "tone": "confident, clear and friendly",
+  "colors": {
+    "bg": "#0B1020",
+    "bg2": "#1A1F4B",
+    "text": "#FFFFFF",
+    "muted": "#AEB8D6",
+    "accent": "#7C5CFF",
+    "accent2": "#22D3EE"
+  }
+}
